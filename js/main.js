@@ -1,6 +1,10 @@
 $(document).ready(function () {
     
-    
+    $('.search-icon').click(function(){
+      $(this).next().slideToggle();
+      $('.small-cart').removeClass('active');
+      $('.body-overlay').hide(0);
+  });
     
     //FILL ELEMENTS DEPENDS OF CATEGORY
     $('[data-category]').each(function () {
