@@ -49,7 +49,6 @@ header{
             max-width: 70px;
         }
 
-
         .navbar-toggler{
             border-color: $header-navbar-toogler !important;
             overflow: hidden;
@@ -85,7 +84,10 @@ header{
 
         .navbar-nav{
             .nav-link{
-                font-size: 1.1rem;
+                font-size: 1.2rem;
+                font-family: $font-roboto;
+                font-weight: $font-weight-regular;
+                color: $gray-900;
                 text-align: center;
                 border-top: 3px solid $header-border-color-gray;
 
@@ -100,7 +102,7 @@ header{
 }
 
 @media(min-width:768px){
-    
+
     header{
 
     }
