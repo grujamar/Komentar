@@ -92,7 +92,7 @@ header{
                 
                 &:hover span, &.active span{
                     //border-top: 3px solid $header-border-color;
-                    //background: $header-border-color-hover;
+                    background: $header-border-color-hover;
                     border-color:inherit !important;
                     color:inherit !important;
                 }
