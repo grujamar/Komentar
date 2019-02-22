@@ -328,12 +328,14 @@ header {
     font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #25282A;
-    text-align: center;
-    border-top: 3px solid #e9ecef; }
-    header .header-bottom .navbar-nav .nav-link:hover, header .header-bottom .navbar-nav .nav-link.active {
-      border-top: 3px solid #28a745;
-      background: #F0F0F0; }
+    text-align: center; }
+    header .header-bottom .navbar-nav .nav-link:hover span, header .header-bottom .navbar-nav .nav-link.active span {
+      border-color: inherit !important;
+      color: inherit !important; }
+    header .header-bottom .navbar-nav .nav-link span {
+      display: block;
+      border-top: 2px solid transparent;
+      color: #25282A; }
 
 .lead-section {
   background: #F2F2F2; }

@@ -87,13 +87,20 @@ header{
                 font-size: 1.2rem;
                 font-family: $font-roboto;
                 font-weight: $font-weight-regular;
-                color: $gray-900;
                 text-align: center;
-                border-top: 3px solid $header-border-color-gray;
-
-                &:hover, &.active{
-                    border-top: 3px solid $header-border-color;
-                    background: $header-border-color-hover;
+                //border-top: 3px solid $header-border-color-gray;
+                
+                &:hover span, &.active span{
+                    //border-top: 3px solid $header-border-color;
+                    //background: $header-border-color-hover;
+                    border-color:inherit !important;
+                    color:inherit !important;
+                }
+                
+                span{
+                    display: block;
+                    border-top: 2px solid transparent;
+                    color: $gray-900;
                 }
             }
         }
