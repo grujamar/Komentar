@@ -47,20 +47,62 @@ and open the template in the editor.
     <body>
         <!--header start-->
         <header>
-            <div class="container">
-                <!--header top start-->
-                <div class="header-top d-flex justify-content-between">
-
-                </div><!--header top end-->
-                <!--header bottom start-->
-                <div class="header-bottom">
-                    <nav class="navbar navbar-expand-md navbar-light">
+            <!--header top start-->
+            <section class="header-top py-2 py-lg-3">
+                <div class="container d-flex justify-content-center justify-content-md-between align-items-end">
+                    <!--logo start-->
+                    <div class="header-top-logo">
+                        <a class="d-none d-md-block" href="#">
+                            <img src="img/logo.png" alt="Logo"/>
+                        </a>
+                    </div><!--logo end-->
+                    <div class="header-top-social">
+                        <ul class="ml-auto list-unstyled">
+                            <li>
+                                <a class="fa fa-facebook-official" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="fa fa-twitter" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="fa fa-google-plus" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="nav-link btn btn-outline-success text-uppercase px-2 py-1" href="#">prijavite se</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section><!--header top end-->
+            <!--header bottom start-->
+            <section class="header-bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light p-0">
+                        <!--small logo start-->
+                        <a class="navbar-brand d-block d-md-none" href="#">
+                            <img src="img/logo-small.png" alt="Logo small"/>
+                        </a><!--small logo end-->
+                        <!--search-wrapper start-->
+                        <div class="search-wrapper ml-auto order-md-last">
+                            <span class="fa fa-search search-icon pr-3 pr-md-0"></span>
+                            <!--Search form start-->
+                            <form class="search-form bg-white">
+                                <div class="form-group mb-0 py-4">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search" >
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="submit"><span class="fa fa-search"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form><!--Search form end-->
+                        </div><!--search-wrapper end-->
+                        <!--Hamburger button-->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </button>
-
+                        </button><!--Hamburger ends-->
                         <div class="collapse navbar-collapse" id="main-menu">
                             <ul class="navbar-nav mr-md-auto">
                                 <li class="nav-item ">
@@ -92,29 +134,21 @@ and open the template in the editor.
                                     <a class="nav-link" href="#">Lifestyle</a>
                                 </li>
                             </ul>
-
-                        </div>
-
-                        <div class="search-wrapper ml-auto order-md-last">
-                            <span class="fa fa-search search-icon"></span>
-                            <form class="search-form bg-white">
-                                <div class="form-group mb-0 py-4">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Search" >
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="submit"><span class="fa fa-search"></span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
                         </div>
                     </nav>
-                </div><!--header bottom end-->
-            </div>
+                </div>
+            </section><!--header bottom end-->
         </header><!--header end-->
         <!--main start-->
         <main>
-
+            <!--lead-section start-->
+            <section class="lead-section">
+                <div class="container">
+                    <figure>
+                        <img src="img/lead-section img/baner 970x400.png" alt="Banner"/>
+                    </figure>
+                </div>
+            </section><!--lead-section end-->
         </main><!--main end-->
 
 

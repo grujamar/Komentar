@@ -1,0 +1,22 @@
+$lead-section-bg: $gray-300;
+
+.lead-section{
+    background: $lead-section-bg;
+
+    figure{
+        padding: 10px 50px;
+    }
+
+}
+
+@media(min-width:768px){
+
+    .lead-section{
+
+        figure{
+            padding: 25px 100px;
+        }
+
+    }
+} 
+
