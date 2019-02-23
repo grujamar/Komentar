@@ -5546,8 +5546,17 @@ button.bg-dark:focus {
 .w-25 {
   width: 25% !important; }
 
+.w-30 {
+  width: 30% !important; }
+
+.w-40 {
+  width: 40% !important; }
+
 .w-50 {
   width: 50% !important; }
+
+.w-60 {
+  width: 60% !important; }
 
 .w-70 {
   width: 70% !important; }
@@ -5570,8 +5579,17 @@ button.bg-dark:focus {
 .h-25 {
   height: 25% !important; }
 
+.h-30 {
+  height: 30% !important; }
+
+.h-40 {
+  height: 40% !important; }
+
 .h-50 {
   height: 50% !important; }
+
+.h-60 {
+  height: 60% !important; }
 
 .h-70 {
   height: 70% !important; }

@@ -6,6 +6,8 @@ $grid-slider-bot-item-h5:#25282A;
 $grid-slider-bot-item-p:#7C7C7C;
 $grid-slider-bot-item-check-circle: $grid-slider-border-color;
 $grid-slider-bot-item-number: #8AB957;
+$grid-slider-tab-content: #E4E2E2;
+$grid-slider-comments-w75: #FFFFFF;
 
 .grid-slider{
     padding-bottom: 20px;
@@ -29,7 +31,7 @@ $grid-slider-bot-item-number: #8AB957;
         padding: 2px 10px 0;
         background: $white;
     }
-    
+
     .grid-slider-bot-item{
         border-bottom: 1px solid $grid-slider-bot-item-user;
 
@@ -126,4 +128,77 @@ $grid-slider-bot-item-number: #8AB957;
             }
         }
     }
+
+    //COL-3
+
+    .grid-slider-comments{
+
+        .nav{
+            flex-wrap: nowrap !important;
+        }
+
+        .nav-link {
+            padding: 0 1rem;
+        }
+
+        .nav-pills .nav-link.active,
+        .nav-pills .show > .nav-link,
+        .nav-pills .nav-link:hover
+            {
+            border-top: 3px solid $grid-slider-border-color;	
+            background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
+
+            span{
+                color: $grid-slider-h3-color;	
+                font-family: $font-roboto;	
+                font-size: 1rem;	
+                font-weight: $font-weight-medium;
+
+            }
+        }
+
+        .nav-pills .nav-link {
+            border-top: 3px solid $white;
+            border-radius: 0rem;
+            background-color: $white;
+            color:$grid-slider-h3-color;
+        }
+
+        .tab-content{
+            border: 1px solid $grid-slider-tab-content;
+            padding: 5px;
+            background: $white !important;
+        }
+
+        .w-70{
+            a{
+                color: black;	
+                font-family: $font-roboto;	
+                font-size: 1rem;
+                text-decoration: none;
+                line-height: 1.4rem;
+                max-height: 4.5rem;
+                overflow: hidden;
+                padding-left: 2px;
+                display: block;
+            }
+
+            p{
+                font-family: $font-roboto;
+                font-weight: $font-weight-light;
+                color:$gray-600;
+                font-size: 0.7rem;
+                padding-left: 2px;
+
+                .news-detail-link{
+                    text-decoration: none;
+                    font-size: 0.85rem;
+                }
+            }
+        }
+
+
+
+    }
+
 }
