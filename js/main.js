@@ -59,7 +59,20 @@ $(document).ready(function () {
     });
     
     
-    
+    //OWL-CAROUSEL SLIDER
+    if($('.owl-carousel').length > 0){
+
+        //grid-slider-mainslider
+        $('.grid-slider-mainslider').owlCarousel({
+            items: 1,
+            dots:false,
+            loop:true,
+            nav:true,
+            navText:['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>']
+            
+        });
+        
+    }
     
     
 

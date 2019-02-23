@@ -8,7 +8,7 @@ $grid-slider-bot-item-check-circle: $grid-slider-border-color;
 $grid-slider-bot-item-number: #8AB957;
 
 .grid-slider{
-    background: $grid-slider-bg;
+    padding-bottom: 20px;
     //TITTLE
     .grid-slider-tittle{
         border-top: 3px solid $grid-slider-border-color;	
@@ -26,41 +26,104 @@ $grid-slider-bot-item-number: #8AB957;
 
     //ITEM
     .grid-slider-bot{
-        padding: 12px 10px;
+        padding: 2px 10px 0;
         background: $white;
     }
     
     .grid-slider-bot-item{
         border-bottom: 1px solid $grid-slider-bot-item-user;
-        
+
         .fa-user-circle{
             color: $grid-slider-bot-item-user;
             font-size: 1.4rem;
         }
-        
+
         h5{
             color: $grid-slider-bot-item-h5;	
             font-family: $font-roboto;	
             font-size: 1rem;	
             font-weight: $font-weight-medium;
         }
-        
+
         p{
             color: $grid-slider-bot-item-p;	
             font-family: $font-roboto;	
             font-size: 0.85rem;
         }
-        
+
         .fa-check-circle{
             color: $grid-slider-bot-item-check-circle;
             font-size: 1.1rem;
         }
-        
+
         .grid-slider-bot-item-number{
-            color: #8AB957;	
+            color: $grid-slider-bot-item-number;	
             font-family: $font-roboto;	
             font-size: 0.85rem;	
             font-weight: $font-weight-medium;
+        }
+    }
+
+    //SLIDER
+    .grid-slider-mainslider{
+        position:relative;
+
+        .news-detail{
+            position: absolute;
+            bottom:0;
+            width: 100%;
+
+            h2{
+                font-family: $font-roboto;
+                font-size: 1.6rem;
+                a{
+                    text-decoration: none;
+                }   
+            }
+
+            p{
+                font-family: $font-roboto;
+                font-weight: $font-weight-light;
+                color:#F0F0F0;
+
+                a{
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .owl-nav{
+            position: absolute;
+            top:50%;
+            left: 0;
+            width: 100%;
+
+            .owl-prev{
+                position: absolute;
+                top:0;
+                transform: translateY(-50%);
+                left: 0;
+                width: 30px;
+                height: 30px;
+                background-color: rgba(245,245,245,0.7);
+            }
+
+            .owl-next{
+                position: absolute;
+                top:0;
+                transform: translateY(-50%);
+                right: 0;
+                width: 30px;
+                height: 30px;
+                background-color: rgba(245,245,245,0.7);
+            }
+
+            .fa{
+                line-height: 26px;
+                color: $white !important;
+                font-size: 2rem;
+            }
         }
     }
 }

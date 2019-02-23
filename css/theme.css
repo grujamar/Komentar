@@ -350,7 +350,7 @@ header {
   .lead-section figure {
     padding: 25px 100px; } }
 .grid-slider {
-  background: #F2F2F2; }
+  padding-bottom: 20px; }
   .grid-slider .grid-slider-tittle {
     border-top: 3px solid rgba(138, 185, 87, 0.8);
     background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%); }
@@ -362,7 +362,7 @@ header {
       text-align: center;
       padding: 13px 57px; }
   .grid-slider .grid-slider-bot {
-    padding: 12px 10px;
+    padding: 2px 10px 0;
     background: #fff; }
   .grid-slider .grid-slider-bot-item {
     border-bottom: 1px solid #D8D8D8; }
@@ -386,5 +386,47 @@ header {
       font-family: "Roboto", sans-serif;
       font-size: 0.85rem;
       font-weight: 500; }
+  .grid-slider .grid-slider-mainslider {
+    position: relative; }
+    .grid-slider .grid-slider-mainslider .news-detail {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+      .grid-slider .grid-slider-mainslider .news-detail h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.6rem; }
+        .grid-slider .grid-slider-mainslider .news-detail h2 a {
+          text-decoration: none; }
+      .grid-slider .grid-slider-mainslider .news-detail p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: #F0F0F0; }
+        .grid-slider .grid-slider-mainslider .news-detail p a {
+          text-decoration: none; }
+    .grid-slider .grid-slider-mainslider .owl-nav {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%; }
+      .grid-slider .grid-slider-mainslider .owl-nav .owl-prev {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        left: 0;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(245, 245, 245, 0.7); }
+      .grid-slider .grid-slider-mainslider .owl-nav .owl-next {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(245, 245, 245, 0.7); }
+      .grid-slider .grid-slider-mainslider .owl-nav .fa {
+        line-height: 26px;
+        color: #fff !important;
+        font-size: 2rem; }
 
 /*# sourceMappingURL=theme.css.map */
