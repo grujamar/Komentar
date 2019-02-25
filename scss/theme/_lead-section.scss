@@ -4,12 +4,23 @@ $lead-section-bg: $gray-300;
     background: $lead-section-bg;
 
     figure{
-        padding: 10px 50px;
+        padding: 10px 5px;
     }
 
 }
 
 @media(min-width:768px){
+
+    .lead-section{
+
+        figure{
+            padding: 25px 75px;
+        }
+
+    }
+} 
+
+@media(min-width:992px){
 
     .lead-section{
 

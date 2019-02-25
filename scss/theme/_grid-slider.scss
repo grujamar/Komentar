@@ -8,6 +8,8 @@ $grid-slider-bot-item-check-circle: $grid-slider-border-color;
 $grid-slider-bot-item-number: #8AB957;
 $grid-slider-tab-content: #E4E2E2;
 $grid-slider-comments-w75: #FFFFFF;
+$line-color: #EAEAEA;
+$comment-triangle-color:#767778;
 
 .grid-slider{
     padding-bottom: 20px;
@@ -22,18 +24,19 @@ $grid-slider-comments-w75: #FFFFFF;
             font-size: 1.1rem;	
             font-weight: $font-weight-medium;
             text-align: center;
-            padding: 13px 57px;
+            padding: 10px 57px;
         }
     }
 
     //ITEM
     .grid-slider-bot{
-        padding: 2px 10px 0;
+        padding: 0 10px 0;
         background: $white;
+        margin-top: 0;
     }
 
     .grid-slider-bot-item{
-        border-bottom: 1px solid $grid-slider-bot-item-user;
+        //border-bottom: 1px solid $grid-slider-bot-item-user;
 
         .fa-user-circle{
             color: $grid-slider-bot-item-user;
@@ -66,18 +69,91 @@ $grid-slider-comments-w75: #FFFFFF;
         }
     }
 
+    //LINE AFTER
+    .line:after{
+        content: '';
+        display: block;
+        width: 140px;
+        height: 2.5px;
+        background: $line-color;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .line-left:after{
+        margin-right: 30px auto 0;
+    }
+
+
+    //COMMENT NUMBER
+    .comment-number{
+        position: absolute;
+        top:82%;
+        right: -6px;
+
+        color:$white;
+        font-family: $font-roboto;
+        font-weight: $font-weight-medium;
+        padding: 6px;
+        font-size: 0.85rem;
+
+        display: inline-block;
+        text-decoration: none;
+
+        &:after{
+            content: '';
+            display: block;
+            width: 5px; 
+            height: 5px;
+            position: absolute;
+            top:100%;
+            left:70%;
+            border: 5px solid transparent;
+            border-top-color: $comment-triangle-color;
+            border-left-color: $comment-triangle-color;
+        }
+    }
+
+    .comment-number-position-20{
+        top:20%;
+        right: 6px;
+    }
+
+    .comment-number-position-40{
+        top:40%;
+        right: 6px;
+    }
+
+    .comment-number-position-60{
+        top:60%;
+        right: 6px;
+    }
+
+    .comment-number-position-80{
+        top:80%;
+        right: 6px;
+    }
+
     //SLIDER
     .grid-slider-mainslider{
-        position:relative;
+
+        .new-item{
+            position: relative;
+        }
 
         .news-detail{
             position: absolute;
             bottom:0;
             width: 100%;
+            margin-right: auto;
+
 
             h2{
                 font-family: $font-roboto;
-                font-size: 1.6rem;
+                font-size: 1.3rem;
+                line-height: 1.6rem;
+                max-height: 3.2rem;
+                overflow: hidden;
                 a{
                     text-decoration: none;
                 }   
@@ -87,6 +163,10 @@ $grid-slider-comments-w75: #FFFFFF;
                 font-family: $font-roboto;
                 font-weight: $font-weight-light;
                 color:#F0F0F0;
+
+                .date, .time{
+                    font-size: 0.7rem;
+                }
 
                 a{
                     text-decoration: none;
@@ -170,8 +250,10 @@ $grid-slider-comments-w75: #FFFFFF;
             background: $white !important;
         }
 
-        .w-70{
-            a{
+        .news-detail{
+            width: 80%;
+
+            .news-detail-first-link{
                 color: black;	
                 font-family: $font-roboto;	
                 font-size: 1rem;
@@ -197,8 +279,37 @@ $grid-slider-comments-w75: #FFFFFF;
             }
         }
 
-
-
     }
 
 }
+
+@media(min-width:768px){
+
+    .grid-slider{
+        //SLIDER
+        .grid-slider-mainslider{
+
+            .news-detail{
+
+                h2{
+                    font-size: 1.6rem;
+                    line-height: 2rem;
+                    max-height: 4rem;
+                }
+
+                p{
+                    font-family: $font-roboto;
+                    font-weight: $font-weight-light;
+                    color:#F0F0F0;
+
+                    .date, .time{
+                        font-size: 0.9rem;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+} 
