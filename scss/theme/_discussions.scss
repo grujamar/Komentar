@@ -23,7 +23,7 @@ $discussions-div-p-color: #313131;
 
         .discussions-div{
 
-            padding: 2spx 10px;
+            padding: 0 12px;
 
             .discussions-number{
                 color: $discussions-div-number-color;	
@@ -97,7 +97,7 @@ $discussions-div-p-color: #313131;
         .comment-number{
             position: absolute;
             top:82%;
-            right: -6px;
+            right: 0;
 
             color:$white;
             font-family: $font-roboto;
@@ -124,7 +124,7 @@ $discussions-div-p-color: #313131;
 
         .comment-number-position-75{
             top:70%;
-            right: 6px;
+            right: 0 !important;
         }
 
         .news-item-detail{

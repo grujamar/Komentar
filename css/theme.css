@@ -26,6 +26,8 @@ img {
     padding-top: 75%; }
   .img-holder.size-16by9:after {
     padding-top: 56.25%; }
+  .img-holder.size-lead-picture:after {
+    padding-top: 42%; }
   .img-holder img {
     display: block;
     position: absolute;
@@ -428,17 +430,19 @@ header {
       border-top-color: #767778;
       border-left-color: #767778; }
   .grid-slider .comment-number-position-20 {
-    top: 20%;
-    right: 6px; }
+    top: 15%;
+    right: 0; }
   .grid-slider .comment-number-position-40 {
-    top: 40%;
-    right: 6px; }
+    top: 35%;
+    right: 0; }
   .grid-slider .comment-number-position-60 {
-    top: 60%;
-    right: 6px; }
+    top: 55%;
+    right: 0; }
   .grid-slider .comment-number-position-80 {
-    top: 80%;
-    right: 6px; }
+    top: 75%;
+    right: 0; }
+  .grid-slider .grid-slider-mainslider li {
+    padding-right: 4px; }
   .grid-slider .grid-slider-mainslider .new-item {
     position: relative; }
   .grid-slider .grid-slider-mainslider .news-detail {
@@ -545,6 +549,10 @@ header {
     color: #F0F0F0; }
     .grid-slider .grid-slider-mainslider .news-detail p .date, .grid-slider .grid-slider-mainslider .news-detail p .time {
       font-size: 0.9rem; } }
+@media (min-width: 1200px) {
+  .bbb {
+    flex-basis: 223px;
+    max-width: 223px; } }
 .discussions .discussions-tittle {
   border-top: 3px solid rgba(138, 185, 87, 0.8);
   background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
@@ -557,7 +565,7 @@ header {
     text-align: center;
     padding: 10px 41px; }
   .discussions .discussions-tittle .discussions-div {
-    padding: 2spx 10px; }
+    padding: 0 12px; }
     .discussions .discussions-tittle .discussions-div .discussions-number {
       color: #8AB957;
       font-family: "Roboto", sans-serif;
@@ -599,7 +607,7 @@ header {
 .discussions .news-item .comment-number {
   position: absolute;
   top: 82%;
-  right: -6px;
+  right: 0;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -620,7 +628,7 @@ header {
     border-left-color: #767778; }
 .discussions .news-item .comment-number-position-75 {
   top: 70%;
-  right: 6px; }
+  right: 0 !important; }
 .discussions .news-item .news-item-detail h5 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;

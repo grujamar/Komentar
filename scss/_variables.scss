@@ -215,7 +215,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1188px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -225,8 +225,8 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns:                12 !default;
-$grid-gutter-width:           30px !default;
+$grid-columns:                18 !default;
+$grid-gutter-width:           17px !default;
 
 
 // Components

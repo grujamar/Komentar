@@ -37,6 +37,11 @@ img{
             padding-top: 56.25%;
         }
     }
+    &.size-lead-picture{
+        &:after{
+            padding-top: 42%;
+        }
+    }
     
     img{
         display: block;

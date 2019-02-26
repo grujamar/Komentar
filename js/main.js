@@ -68,7 +68,8 @@ $(document).ready(function () {
             dots:false,
             loop:true,
             nav:true,
-            navText:['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>']
+            navText:['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+            
             
         });
         

@@ -115,28 +115,32 @@ $comment-triangle-color:#767778;
     }
 
     .comment-number-position-20{
-        top:20%;
-        right: 6px;
+        top:15%;
+        right: 0;
     }
 
     .comment-number-position-40{
-        top:40%;
-        right: 6px;
+        top:35%;
+        right: 0;
     }
 
     .comment-number-position-60{
-        top:60%;
-        right: 6px;
+        top:55%;
+        right: 0;
     }
 
     .comment-number-position-80{
-        top:80%;
-        right: 6px;
+        top:75%;
+        right: 0;
     }
 
     //SLIDER
     .grid-slider-mainslider{
-
+        
+        li{
+            padding-right: 4px;
+        }
+        
         .new-item{
             position: relative;
         }
@@ -313,3 +317,11 @@ $comment-triangle-color:#767778;
 
     }
 } 
+
+
+@media(min-width: 1200px){
+    .bbb{
+        flex-basis: 223px;
+        max-width: 223px;
+    }
+}
