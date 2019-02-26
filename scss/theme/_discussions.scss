@@ -1,10 +1,97 @@
 $discussions-link-color:#000000;
+$discussions-div-number-color: #8AB957;
 
+$discussions-div-h5-color: #8D8B8B;
+$discussions-div-p-color: #313131;
 
 .discussions{
 
-    .news-item{
+    .discussions-tittle{
 
+        border-top: 3px solid $grid-slider-border-color;	
+        background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
+        border-bottom:1px solid #EAEAEA;
+
+        h3{
+            color: $grid-slider-h3-color;	
+            font-family: $font-roboto;	
+            font-size: 1.1rem;	
+            font-weight: $font-weight-medium;
+            text-align: center;
+            padding: 10px 41px;
+        }
+
+        .discussions-div{
+
+            padding: 2spx 10px;
+
+            .discussions-number{
+                color: $discussions-div-number-color;	
+                font-family: $font-roboto;	
+                font-size: 1.4rem;	
+                font-weight: $font-weight-bold;
+            }
+
+            h5{
+                color: $discussions-div-h5-color;
+                font-family: $font-roboto;	
+                font-size: 1rem;	
+
+            }
+
+            p{
+                color: $discussions-div-p-color;	
+                font-family: $font-roboto;	
+                font-size: 1rem;	
+                font-style: $font-weight-italic;
+
+                .date, .time{
+                    font-size: 0.85rem;
+                    font-family: $font-roboto;
+                    font-weight: $font-weight-light;
+                    color:$gray-600;
+                    font-style: $font-weight-normal;
+                }
+            }
+
+        }
+
+
+        .discussions-article{
+
+            h5{
+                font-family: $font-roboto;	
+                font-size: 1.1rem;
+                line-height: 1.4rem;
+                max-height: 2.8rem;
+                overflow: hidden;
+
+                .discussions-link{
+                    text-decoration: none;
+                    color: $discussions-link-color;
+
+                }
+            }
+
+            p{
+                font-family: $font-roboto;
+                font-weight: $font-weight-light;
+                color:$gray-600;
+
+                .date, .time{
+                    font-size: 0.85rem;
+                }
+
+                .discussions-link{
+                    text-decoration: none;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+
+    .news-item{
 
         //COMMENT NUMBER
         .comment-number{

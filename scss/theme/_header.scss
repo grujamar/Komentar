@@ -10,7 +10,12 @@ $header-search-color: $secondary;
 header{
 
     background: $header-bg;
-
+    
+    .header-top{
+        border-bottom: 3px solid $header-border-color-gray;
+        position: relative;
+    }
+    
     .header-top-social{
         li{
             display: inline-block;
@@ -26,7 +31,9 @@ header{
     }
 
     .header-bottom{
-
+        
+        margin-top: -3px;
+        
         .search-wrapper{
             .search-icon{
                 text-align: center;
@@ -83,24 +90,27 @@ header{
         }
 
         .navbar-nav{
+
             .nav-link{
                 font-size: 1.2rem;
                 font-family: $font-roboto;
                 font-weight: $font-weight-regular;
                 text-align: center;
+                padding: 0;
                 //border-top: 3px solid $header-border-color-gray;
-                
+
                 &:hover span, &.active span{
                     //border-top: 3px solid $header-border-color;
                     background: $header-border-color-hover;
                     border-color:inherit !important;
                     color:inherit !important;
                 }
-                
+
                 span{
                     display: block;
                     border-top: 2px solid transparent;
                     color: $gray-900;
+                    padding: 0.5rem;
                 }
             }
         }

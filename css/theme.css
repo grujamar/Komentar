@@ -285,6 +285,9 @@ main {
 
 header {
   background: #fff; }
+  header .header-top {
+    border-bottom: 3px solid #e9ecef;
+    position: relative; }
   header .header-top-social li {
     display: inline-block;
     padding: 0 5px; }
@@ -293,53 +296,57 @@ header {
       height: 15px;
       width: 15px;
       text-decoration: none; }
-  header .header-bottom .search-wrapper .search-icon {
-    text-align: center;
-    font-size: 18px;
-    color: #6c757d;
-    margin-right: 10px;
-    cursor: pointer; }
-  header .header-bottom .search-form {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    display: none; }
-  header .header-bottom .navbar-brand {
-    max-width: 70px; }
-  header .header-bottom .navbar-toggler {
-    border-color: #6c757d !important;
-    overflow: hidden; }
-    header .header-bottom .navbar-toggler span {
-      display: block;
-      width: 32px;
-      height: 3px;
-      background: #6c757d;
-      margin: 5px 0;
-      position: relative;
-      transition: 0.5s linear; }
-    header .header-bottom .navbar-toggler.hover span {
-      background: #fff; }
-    header .header-bottom .navbar-toggler.active span:nth-of-type(2) {
-      opacity: 0;
-      transform: translateX(-100px); }
-    header .header-bottom .navbar-toggler.active span:nth-of-type(1) {
-      transform: rotate(45deg) translate(5px, 6px); }
-    header .header-bottom .navbar-toggler.active span:nth-of-type(3) {
-      transform: rotate(-45deg) translate(5px, -6px); }
-  header .header-bottom .navbar-nav .nav-link {
-    font-size: 1.2rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    text-align: center; }
-    header .header-bottom .navbar-nav .nav-link:hover span, header .header-bottom .navbar-nav .nav-link.active span {
-      background: #F0F0F0;
-      border-color: inherit !important;
-      color: inherit !important; }
-    header .header-bottom .navbar-nav .nav-link span {
-      display: block;
-      border-top: 2px solid transparent;
-      color: #25282A; }
+  header .header-bottom {
+    margin-top: -3px; }
+    header .header-bottom .search-wrapper .search-icon {
+      text-align: center;
+      font-size: 18px;
+      color: #6c757d;
+      margin-right: 10px;
+      cursor: pointer; }
+    header .header-bottom .search-form {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      display: none; }
+    header .header-bottom .navbar-brand {
+      max-width: 70px; }
+    header .header-bottom .navbar-toggler {
+      border-color: #6c757d !important;
+      overflow: hidden; }
+      header .header-bottom .navbar-toggler span {
+        display: block;
+        width: 32px;
+        height: 3px;
+        background: #6c757d;
+        margin: 5px 0;
+        position: relative;
+        transition: 0.5s linear; }
+      header .header-bottom .navbar-toggler.hover span {
+        background: #fff; }
+      header .header-bottom .navbar-toggler.active span:nth-of-type(2) {
+        opacity: 0;
+        transform: translateX(-100px); }
+      header .header-bottom .navbar-toggler.active span:nth-of-type(1) {
+        transform: rotate(45deg) translate(5px, 6px); }
+      header .header-bottom .navbar-toggler.active span:nth-of-type(3) {
+        transform: rotate(-45deg) translate(5px, -6px); }
+    header .header-bottom .navbar-nav .nav-link {
+      font-size: 1.2rem;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      text-align: center;
+      padding: 0; }
+      header .header-bottom .navbar-nav .nav-link:hover span, header .header-bottom .navbar-nav .nav-link.active span {
+        background: #F0F0F0;
+        border-color: inherit !important;
+        color: inherit !important; }
+      header .header-bottom .navbar-nav .nav-link span {
+        display: block;
+        border-top: 2px solid transparent;
+        color: #25282A;
+        padding: 0.5rem; }
 
 .lead-section {
   background: #F2F2F2; }
@@ -538,6 +545,57 @@ header {
     color: #F0F0F0; }
     .grid-slider .grid-slider-mainslider .news-detail p .date, .grid-slider .grid-slider-mainslider .news-detail p .time {
       font-size: 0.9rem; } }
+.discussions .discussions-tittle {
+  border-top: 3px solid rgba(138, 185, 87, 0.8);
+  background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
+  border-bottom: 1px solid #EAEAEA; }
+  .discussions .discussions-tittle h3 {
+    color: #25282A;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 41px; }
+  .discussions .discussions-tittle .discussions-div {
+    padding: 2spx 10px; }
+    .discussions .discussions-tittle .discussions-div .discussions-number {
+      color: #8AB957;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700; }
+    .discussions .discussions-tittle .discussions-div h5 {
+      color: #8D8B8B;
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem; }
+    .discussions .discussions-tittle .discussions-div p {
+      color: #313131;
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-style: italic; }
+      .discussions .discussions-tittle .discussions-div p .date, .discussions .discussions-tittle .discussions-div p .time {
+        font-size: 0.85rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: #6c757d;
+        font-style: normal; }
+  .discussions .discussions-tittle .discussions-article h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    max-height: 2.8rem;
+    overflow: hidden; }
+    .discussions .discussions-tittle .discussions-article h5 .discussions-link {
+      text-decoration: none;
+      color: #000000; }
+  .discussions .discussions-tittle .discussions-article p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #6c757d; }
+    .discussions .discussions-tittle .discussions-article p .date, .discussions .discussions-tittle .discussions-article p .time {
+      font-size: 0.85rem; }
+    .discussions .discussions-tittle .discussions-article p .discussions-link {
+      text-decoration: none;
+      font-size: 0.9rem; }
 .discussions .news-item .comment-number {
   position: absolute;
   top: 82%;
