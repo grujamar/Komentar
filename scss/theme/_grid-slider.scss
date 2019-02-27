@@ -115,32 +115,32 @@ $comment-triangle-color:#767778;
     }
 
     .comment-number-position-20{
-        top:15%;
+        top:20%;
         right: 0;
     }
 
     .comment-number-position-40{
-        top:35%;
+        top:40%;
         right: 0;
     }
 
     .comment-number-position-60{
-        top:55%;
+        top:65%;
         right: 0;
     }
 
     .comment-number-position-80{
-        top:75%;
+        top:85%;
         right: 0;
     }
 
     //SLIDER
     .grid-slider-mainslider{
-        
+
         li{
             padding-right: 4px;
         }
-        
+
         .new-item{
             position: relative;
         }
@@ -287,9 +287,80 @@ $comment-triangle-color:#767778;
 
 }
 
+@media(min-width: 450px){
+    .grid-slider{
+        .comment-number-position-20{
+            top:15%;
+            right: 0;
+        }
+
+        .comment-number-position-40{
+            top:35%;
+            right: 0;
+        }
+
+        .comment-number-position-60{
+            top:60%;
+            right: 0;
+        }
+
+        .comment-number-position-80{
+            top:80%;
+            right: 0;
+        }
+    }
+}
+
+
+@media(min-width: 576px){
+    .grid-slider{
+        .comment-number-position-20{
+            top:15%;
+            right: 0;
+        }
+
+        .comment-number-position-40{
+            top:35%;
+            right: 0;
+        }
+
+        .comment-number-position-60{
+            top:55%;
+            right: 0;
+        }
+
+        .comment-number-position-80{
+            top:75%;
+            right: 0;
+        }
+    }
+}
+
+
 @media(min-width:768px){
 
     .grid-slider{
+        
+        .comment-number-position-20{
+            top:20%;
+            right: 0;
+        }
+
+        .comment-number-position-40{
+            top:40%;
+            right: 0;
+        }
+
+        .comment-number-position-60{
+            top:60%;
+            right: 0;
+        }
+
+        .comment-number-position-80{
+            top:80%;
+            right: 0;
+        }
+        
         //SLIDER
         .grid-slider-mainslider{
 
@@ -319,9 +390,3 @@ $comment-triangle-color:#767778;
 } 
 
 
-@media(min-width: 1200px){
-    .bbb{
-        flex-basis: 223px;
-        max-width: 223px;
-    }
-}
