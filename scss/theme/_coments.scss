@@ -22,15 +22,15 @@ $comments-border-color-blue: #18B6E9;
             font-weight: $font-weight-medium;
         }
     }
-    
+
     .border-top-green{
-       border-top: 3px solid $comments-border-color-green; 
+        border-top: 3px solid $comments-border-color-green; 
     }
-    
+
     .border-top-light-blue{
         border-top: 3px solid $comments-border-color-blue;
     }
-    
+
     //COMMENT NUMBER
     .comment-number{
         position: absolute;
@@ -161,10 +161,12 @@ $comments-border-color-blue: #18B6E9;
 
 @media(min-width: 576px){
 
-    .youtube-comments{
+    .youtube-comments,
+    .news-comments,
+    .sport-comments{
         .youtube-comments-body{
             .news-detail{
-                bottom:35%;
+                bottom:34%;
             }
 
             .news-icon{
@@ -181,7 +183,9 @@ $comments-border-color-blue: #18B6E9;
 
 @media(min-width: 768px){
 
-    .youtube-comments{
+    .youtube-comments,
+    .news-comments,
+    .sport-comments{
         .youtube-comments-body{
             .news-detail{
                 bottom:36%;
@@ -201,7 +205,9 @@ $comments-border-color-blue: #18B6E9;
 
 @media(min-width: 992px){
 
-    .youtube-comments{
+    .youtube-comments,
+    .news-comments,
+    .sport-comments{
         .youtube-comments-body{
             .news-detail{
                 bottom:33%;
@@ -221,13 +227,15 @@ $comments-border-color-blue: #18B6E9;
 
 @media(min-width: 1200px){
 
-    .youtube-comments{
+    .youtube-comments,
+    .news-comments,
+    .sport-comments{
         .youtube-comments-body{
             .news-detail{
-                    bottom:30%;
-                }
+                bottom:30%;
+            }
             .news-icon{
-                
+
                 .fa{
                     font-size: 3rem;
                     //background: rgba(255, 255, 255, 0.3);
