@@ -1,12 +1,17 @@
-$youtube-comments-border-color: #E0311F;
-$youtube-comments-div-h5-color:#8D8B8B;
-$youtube-comments-div-p-color:#25282A;
-$youtube-comments-div-datetime-color: #ABABAB;
+$comments-border-color: #E0311F;
+$comments-div-h5-color:#8D8B8B;
+$comments-div-p-color:#25282A;
+$comments-div-datetime-color: #ABABAB;
+$comments-border-color-green: #8AB957;
+$comments-border-color-blue: #18B6E9;
 
-.youtube-comments{
+
+.youtube-comments,
+.news-comments,
+.sport-comments{
 
     .youtube-coments-tittle{
-        border-top: 3px solid $youtube-comments-border-color;	
+        border-top: 3px solid $comments-border-color;	
         background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
 
         h2{
@@ -17,7 +22,15 @@ $youtube-comments-div-datetime-color: #ABABAB;
             font-weight: $font-weight-medium;
         }
     }
-
+    
+    .border-top-green{
+       border-top: 3px solid $comments-border-color-green; 
+    }
+    
+    .border-top-light-blue{
+        border-top: 3px solid $comments-border-color-blue;
+    }
+    
     //COMMENT NUMBER
     .comment-number{
         position: absolute;
@@ -61,13 +74,13 @@ $youtube-comments-div-datetime-color: #ABABAB;
                 padding-bottom: 12px;
 
                 h5{
-                    color: $youtube-comments-div-h5-color;
+                    color: $comments-div-h5-color;
                     font-family: $font-roboto;	
                     font-size: 1rem;
                 }
 
                 p{
-                    color: $youtube-comments-div-p-color;	
+                    color: $comments-div-p-color;	
                     font-family: $font-roboto;	
                     font-size: 1rem;
                     line-height: 1.5rem;
@@ -79,7 +92,7 @@ $youtube-comments-div-datetime-color: #ABABAB;
                         font-size: 0.85rem;
                         font-family: $font-roboto;
                         font-weight: $font-weight-light;
-                        color:$youtube-comments-div-datetime-color;
+                        color:$comments-div-datetime-color;
                         font-style: $font-weight-normal;
                     }
                 }
@@ -136,6 +149,15 @@ $youtube-comments-div-datetime-color: #ABABAB;
     }
 
 }
+
+.news-comments{
+    margin-bottom: 46px;
+}
+
+.sport-comments{
+    margin-bottom: 76px;
+}
+
 
 @media(min-width: 576px){
 
