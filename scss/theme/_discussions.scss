@@ -1,6 +1,5 @@
 $discussions-link-color:#000000;
 $discussions-div-number-color: #8AB957;
-
 $discussions-div-h5-color: #8D8B8B;
 $discussions-div-p-color: #313131;
 
@@ -15,10 +14,8 @@ $discussions-div-p-color: #313131;
         border-bottom:1px solid #EAEAEA;
 
         h3{
-            color: $grid-slider-h3-color;	
-            font-family: $font-roboto;	
+            color: $grid-slider-h3-color;
             font-size: 1.1rem;	
-            font-weight: $font-weight-medium;
             text-align: center;
             padding: 10px 41px;
         }
@@ -35,22 +32,18 @@ $discussions-div-p-color: #313131;
             }
 
             h5{
-                color: $discussions-div-h5-color;
-                font-family: $font-roboto;	
+                color: $discussions-div-h5-color;	
                 font-size: 1rem;	
 
             }
 
             p{
                 color: $discussions-div-p-color;	
-                font-family: $font-roboto;	
                 font-size: 1rem;	
                 font-style: $font-weight-italic;
 
                 .date, .time{
                     font-size: 0.85rem;
-                    font-family: $font-roboto;
-                    font-weight: $font-weight-light;
                     color:$gray-600;
                     font-style: $font-weight-normal;
                 }
@@ -61,8 +54,7 @@ $discussions-div-p-color: #313131;
 
         .discussions-article{
 
-            h5{
-                font-family: $font-roboto;	
+            h5{	
                 font-size: 1.1rem;
                 line-height: 1.4rem;
                 max-height: 2.8rem;
@@ -76,7 +68,6 @@ $discussions-div-p-color: #313131;
             }
 
             p{
-                font-family: $font-roboto;
                 font-weight: $font-weight-light;
                 color:$gray-600;
 
@@ -97,31 +88,8 @@ $discussions-div-p-color: #313131;
 
         //COMMENT NUMBER
         .comment-number{
-            position: absolute;
             top:82%;
             right: 0;
-
-            color:$white;
-            font-family: $font-roboto;
-            font-weight: $font-weight-medium;
-            padding: 6px;
-            font-size: 0.85rem;
-
-            display: inline-block;
-            text-decoration: none;
-
-            &:after{
-                content: '';
-                display: block;
-                width: 5px; 
-                height: 5px;
-                position: absolute;
-                top:100%;
-                left:70%;
-                border: 5px solid transparent;
-                border-top-color: $comment-triangle-color;
-                border-left-color: $comment-triangle-color;
-            }
         }
 
         .comment-number-position-75{
@@ -130,8 +98,7 @@ $discussions-div-p-color: #313131;
         }
 
         .news-item-detail{
-            h5{
-                font-family: $font-roboto;	
+            h5{	
                 font-size: 1.1rem;
                 line-height: 1.4rem;
                 max-height: 2.8rem;
@@ -145,7 +112,6 @@ $discussions-div-p-color: #313131;
             }
 
             p{
-                font-family: $font-roboto;
                 font-weight: $font-weight-light;
                 color:$gray-600;
 

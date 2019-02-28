@@ -4,22 +4,21 @@ $comments-div-p-color:#25282A;
 $comments-div-datetime-color: #ABABAB;
 $comments-border-color-green: #8AB957;
 $comments-border-color-blue: #18B6E9;
-
+$comments-linear-background-white: rgba(255,255,255, 1);
+$comments-linear-background-gray: rgba(243,243,243, 1);
 
 .youtube-comments,
 .news-comments,
 .sport-comments{
 
-    .youtube-coments-tittle{
+    .coments-tittle{
         border-top: 3px solid $comments-border-color;	
-        background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
+        background: linear-gradient(to right, $comments-linear-background-white 70%, $comments-linear-background-gray 100%);
 
         h2{
             padding: 11px;
             color: $newest-coments-h5-color;	
-            font-family: $font-roboto;	
             font-size: 1.1rem;	
-            font-weight: $font-weight-medium;
         }
     }
 
@@ -31,36 +30,7 @@ $comments-border-color-blue: #18B6E9;
         border-top: 3px solid $comments-border-color-blue;
     }
 
-    //COMMENT NUMBER
-    .comment-number{
-        position: absolute;
-        bottom:13%;
-        right: -9px;
-
-        color:$white;
-        font-family: $font-roboto;
-        font-weight: $font-weight-medium;
-        padding: 6px;
-        font-size: 0.85rem;
-
-        display: inline-block;
-        text-decoration: none;
-
-        &:after{
-            content: '';
-            display: block;
-            width: 5px; 
-            height: 5px;
-            position: absolute;
-            top:100%;
-            left:70%;
-            border: 5px solid transparent;
-            border-top-color: $comment-triangle-color;
-            border-left-color: $comment-triangle-color;
-        }
-    }
-
-    .youtube-comments-body{
+    .comments-body{
         padding-top: 30px;
         //spadding-bottom: 26px;
 
@@ -74,14 +44,12 @@ $comments-border-color-blue: #18B6E9;
                 padding-bottom: 12px;
 
                 h5{
-                    color: $comments-div-h5-color;
-                    font-family: $font-roboto;	
+                    color: $comments-div-h5-color; 	
                     font-size: 1rem;
                 }
 
                 p{
-                    color: $comments-div-p-color;	
-                    font-family: $font-roboto;	
+                    color: $comments-div-p-color;
                     font-size: 1rem;
                     line-height: 1.5rem;
                     max-height: 3.0rem;
@@ -90,8 +58,6 @@ $comments-border-color-blue: #18B6E9;
 
                     .date, .time{
                         font-size: 0.85rem;
-                        font-family: $font-roboto;
-                        font-weight: $font-weight-light;
                         color:$comments-div-datetime-color;
                         font-style: $font-weight-normal;
                     }
@@ -107,18 +73,14 @@ $comments-border-color-blue: #18B6E9;
             padding-left:10px;
 
             h2{
-                font-family: $font-roboto;
                 font-size: 1.1rem;
                 line-height: 1.4rem;
                 max-height: 2.8rem;
                 overflow: hidden;
-                a{
-                    text-decoration: none;
-                }   
+                  
             }
 
             p{
-                font-family: $font-roboto;
                 font-weight: $font-weight-light;
                 color:#F0F0F0;
 
@@ -144,6 +106,12 @@ $comments-border-color-blue: #18B6E9;
                 font-size: 3rem;
                 color: $white;
                 //background: rgba(255, 255, 255, 0.3);
+                width: 57px;
+                height: 57px;
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 50%;
+                line-height: 57px;
+                text-align: center;
             }
         }
     }
@@ -164,7 +132,7 @@ $comments-border-color-blue: #18B6E9;
     .youtube-comments,
     .news-comments,
     .sport-comments{
-        .youtube-comments-body{
+        .comments-body{
             .news-detail{
                 bottom:34%;
             }
@@ -186,7 +154,7 @@ $comments-border-color-blue: #18B6E9;
     .youtube-comments,
     .news-comments,
     .sport-comments{
-        .youtube-comments-body{
+        .comments-body{
             .news-detail{
                 bottom:36%;
             }
@@ -208,7 +176,7 @@ $comments-border-color-blue: #18B6E9;
     .youtube-comments,
     .news-comments,
     .sport-comments{
-        .youtube-comments-body{
+        .comments-body{
             .news-detail{
                 bottom:33%;
             }
@@ -230,7 +198,7 @@ $comments-border-color-blue: #18B6E9;
     .youtube-comments,
     .news-comments,
     .sport-comments{
-        .youtube-comments-body{
+        .comments-body{
             .news-detail{
                 bottom:30%;
             }

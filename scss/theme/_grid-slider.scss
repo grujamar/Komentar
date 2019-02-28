@@ -8,21 +8,19 @@ $grid-slider-bot-item-check-circle: $grid-slider-border-color;
 $grid-slider-bot-item-number: #8AB957;
 $grid-slider-tab-content: #E4E2E2;
 $grid-slider-comments-w75: #FFFFFF;
-$line-color: #EAEAEA;
-$comment-triangle-color:#767778;
+$comments-linear-background-white: rgba(255,255,255, 1);
+$comments-linear-background-gray: rgba(243,243,243, 1);
 
 .grid-slider{
     padding-bottom: 20px;
     //TITTLE
     .grid-slider-tittle{
         border-top: 3px solid $grid-slider-border-color;	
-        background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
+        background: linear-gradient(to right, $comments-linear-background-white 70%, $comments-linear-background-gray 100%);
 
         h3{
-            color: $grid-slider-h3-color;	
-            font-family: $font-roboto;	
-            font-size: 1.1rem;	
-            font-weight: $font-weight-medium;
+            color: $grid-slider-h3-color;		
+            font-size: 1.1rem;
             text-align: center;
             padding: 10px 57px;
         }
@@ -45,14 +43,12 @@ $comment-triangle-color:#767778;
 
         h5{
             color: $grid-slider-bot-item-h5;	
-            font-family: $font-roboto;	
             font-size: 1rem;	
             font-weight: $font-weight-medium;
         }
 
         p{
-            color: $grid-slider-bot-item-p;	
-            font-family: $font-roboto;	
+            color: $grid-slider-bot-item-p;
             font-size: 0.85rem;
         }
 
@@ -69,49 +65,11 @@ $comment-triangle-color:#767778;
         }
     }
 
-    //LINE AFTER
-    .line:after{
-        content: '';
-        display: block;
-        width: 140px;
-        height: 2.5px;
-        background: $line-color;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .line-left:after{
-        margin-right: 30px auto 0;
-    }
-
-
+    
     //COMMENT NUMBER
     .comment-number{
-        position: absolute;
         top:82%;
         right: -6px;
-
-        color:$white;
-        font-family: $font-roboto;
-        font-weight: $font-weight-medium;
-        padding: 6px;
-        font-size: 0.85rem;
-
-        display: inline-block;
-        text-decoration: none;
-
-        &:after{
-            content: '';
-            display: block;
-            width: 5px; 
-            height: 5px;
-            position: absolute;
-            top:100%;
-            left:70%;
-            border: 5px solid transparent;
-            border-top-color: $comment-triangle-color;
-            border-left-color: $comment-triangle-color;
-        }
     }
 
     .comment-number-position-20{
@@ -153,27 +111,18 @@ $comment-triangle-color:#767778;
 
 
             h2{
-                font-family: $font-roboto;
                 font-size: 1.3rem;
                 line-height: 1.6rem;
                 max-height: 3.2rem;
-                overflow: hidden;
-                a{
-                    text-decoration: none;
-                }   
+                overflow: hidden; 
             }
 
             p{
-                font-family: $font-roboto;
                 font-weight: $font-weight-light;
                 color:#F0F0F0;
 
                 .date, .time{
                     font-size: 0.7rem;
-                }
-
-                a{
-                    text-decoration: none;
                 }
             }
 
@@ -270,7 +219,6 @@ $comment-triangle-color:#767778;
             }
 
             p{
-                font-family: $font-roboto;
                 font-weight: $font-weight-light;
                 color:$gray-600;
                 font-size: 0.7rem;
@@ -340,7 +288,7 @@ $comment-triangle-color:#767778;
 @media(min-width:768px){
 
     .grid-slider{
-        
+
         .comment-number-position-20{
             top:20%;
             right: 0;
@@ -360,7 +308,7 @@ $comment-triangle-color:#767778;
             top:80%;
             right: 0;
         }
-        
+
         //SLIDER
         .grid-slider-mainslider{
 
@@ -373,7 +321,6 @@ $comment-triangle-color:#767778;
                 }
 
                 p{
-                    font-family: $font-roboto;
                     font-weight: $font-weight-light;
                     color:#F0F0F0;
 
