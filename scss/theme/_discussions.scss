@@ -98,6 +98,14 @@ $discussions-div-p-color: #313131;
         }
 
         .news-item-detail{
+            a{
+                text-decoration: none;
+
+                    &:hover{
+                    color:$white;
+                }
+            }
+            
             h5{	
                 font-size: 1.1rem;
                 line-height: 1.4rem;
@@ -148,8 +156,32 @@ $discussions-div-p-color: #313131;
 
         .news-item{
             .comment-number-position-75{
-                top:70%;
+                top:80%;
                 right: 6px;
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+
+    .discussions{
+
+        .news-item{
+            .comment-number-position-75{
+                top:75%;
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+
+    .discussions{
+
+        .news-item{
+            .comment-number-position-75{
+                top:70%;
             }
         }
     }

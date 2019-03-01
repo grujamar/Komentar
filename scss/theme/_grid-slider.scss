@@ -65,7 +65,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
         }
     }
 
-    
+
     //COMMENT NUMBER
     .comment-number{
         top:82%;
@@ -78,7 +78,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     }
 
     .comment-number-position-40{
-        top:40%;
+        top:42%;
         right: 0;
     }
 
@@ -94,6 +94,13 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
 
     //SLIDER
     .grid-slider-mainslider{
+        a{
+            text-decoration: none;
+
+            &:hover{
+                color:$white;
+            }
+        }
 
         li{
             padding-right: 4px;
@@ -165,6 +172,13 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     //COL-3
 
     .grid-slider-comments{
+        a{
+            text-decoration: none;
+
+            &:hover{
+                color:$white;
+            }
+        }
 
         .nav{
             flex-wrap: nowrap !important;
@@ -248,7 +262,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
         }
 
         .comment-number-position-60{
-            top:60%;
+            top:58%;
             right: 0;
         }
 
@@ -268,17 +282,17 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
         }
 
         .comment-number-position-40{
-            top:35%;
+            top:40%;
             right: 0;
         }
 
         .comment-number-position-60{
-            top:55%;
+            top:60%;
             right: 0;
         }
 
         .comment-number-position-80{
-            top:75%;
+            top:80%;
             right: 0;
         }
     }
