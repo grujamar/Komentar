@@ -1,0 +1,31 @@
+$input-form-border-color:rgba(213,213,213,0.54);
+$input-form-bg:rgba(138,185,87,0.15);
+$form-control-border:#E2E1E7;
+$form-control-focus-border-color:#ced4da;
+$button-color:#8AB957;
+
+.input-form{
+    padding: 10px;
+    padding-bottom: 0;
+    border:1px solid $input-form-border-color;
+    background: $input-form-bg;
+    margin-bottom: 26px;
+
+    .form-control{
+        border-radius: 2px;
+        background: $white;
+        border: 0.5px solid $form-control-border;
+
+        &:focus{
+            box-shadow: 0 0 1px rgba(0,0,0,0.4);
+            border-color: $form-control-focus-border-color;
+        }
+    }
+
+
+    .btn-success{
+        background:$button-color !important;
+        border-color: $button-color !important;
+    }
+}
+

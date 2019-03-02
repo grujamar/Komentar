@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pojedinacna Vest</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marko Grujic">
+        <meta name="description" content="Komentar - najzanimljiviji komentari iz čitavog sveta.">
+        <meta name="keywords" content="Komentar - najzanimljiviji komentari iz čitavog sveta.">
+
+        <!--iOS compatibile-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Komentar">
+        <link rel="apple-touch-icon" href="apple-icon-60x60.png">       
+
+        <!--Android compatibile-->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="aplication-name" content="Komentar">
+        <link rel="icon" type="icon/png" href="android-icon-48x48.png"> 
+
+        <!--FONTOVI-->
+        <!--Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--bootstrap-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+        <!--external css, like plugins ...-->
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+
+        <!--theme css-->
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body class="bg-white">
+        <!--header start-->
+        <header>
+            <!--header top start-->
+            <section class="header-top py-2 py-lg-3">
+                <div class="container d-flex justify-content-center justify-content-md-between align-items-end">
+                    <!--logo start-->
+                    <div class="header-top-logo">
+                        <a class="d-none d-md-block" href="#">
+                            <img src="img/logo.png" alt="Logo"/>
+                        </a>
+                    </div><!--logo end-->
+                    <div class="header-top-social">
+                        <ul class="ml-auto list-unstyled">
+                            <li>
+                                <a class="fa fa-facebook-official" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="fa fa-twitter" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="fa fa-google-plus" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="nav-link btn btn-outline-success text-uppercase px-2 py-1" href="#">prijavite se</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section><!--header top end-->
+            <!--header bottom start-->
+            <section class="header-bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light p-0">
+                        <!--small logo start-->
+                        <a class="navbar-brand d-block d-md-none" href="#">
+                            <img src="img/logo-small.png" alt="Logo small"/>
+                        </a><!--small logo end-->
+                        <!--search-wrapper start-->
+                        <div class="search-wrapper ml-auto order-md-last">
+                            <span class="fa fa-search search-icon pr-3 pr-md-0"></span>
+                            <!--Search form start-->
+                            <form class="search-form bg-white">
+                                <div class="form-group mb-0 py-4">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search" >
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="submit"><span class="fa fa-search"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form><!--Search form end-->
+                        </div><!--search-wrapper end-->
+                        <!--Hamburger button-->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button><!--Hamburger ends-->
+                        <!--div colapse start-->
+                        <div class="collapse navbar-collapse" id="main-menu">
+                            <ul class="navbar-nav mr-md-auto">
+                                <li class="nav-item" data-category='#FF0000'>
+                                    <!-- Add active class on link -->
+                                    <a class="nav-link active category-border category-color" href="#"><span>Naslovna</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#C41FC4'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Vesti</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#435BEF'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Sport</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#FFA500'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Zanimljivosti</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#098F09'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Zabava</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#FF00FF'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Hronika</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#197239'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Razonoda</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#196672'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Kultura</span></a>
+                                </li>
+                                <li class="nav-item" data-category='#9b9723'>
+                                    <a class="nav-link category-border category-color" href="#"><span>Lifestyle</span></a>
+                                </li>
+                            </ul>
+                        </div><!--div colapse end-->
+                    </nav>
+                </div>
+            </section><!--header bottom end-->
+        </header><!--header end-->
+        <!--main start-->
+        <main>
+            <!--single-news start-->
+            <section class="single-news" data-category='#C41FC4'>
+                <div class="container">
+                    <div class="row">
+                        <!--Left side start-->
+                        <div class="col-lg-12">
+                            <div class="single-news-wrapper">
+                                <!--single-news-header start-->
+                                <div class="single-news-header">
+                                    <div>
+                                        <span class="category text-uppercase">vesti</span>
+                                        <a href="#" class="comment-number category-bg">204</a>
+                                    </div>
+                                    <h2>
+                                        Ne treba nam još oružja na buretu baruta! 
+                                        Prva reakcija Beograda na nabavku naoružanja "Vojske Kosova"
+                                    </h2>
+                                    <p>09.decembar 2018. | 13:30</p>
+                                    <figure>
+                                        <img src="img/SINGLE-PAGE/Rectangle 28.png" class="img-holder size-16by9" alt="Lead picture"/>
+                                    </figure>
+                                </div><!--single-news-header end-->
+                                <!--single-news-content start-->
+                                <article class="single-news-content">
+                                    <p>
+                                        Direktor Kancelarije za Kosovo i Metohiju 
+                                        <b><u>Marko Ðurić</u></b> izjavio je danas da bi nove mere 
+                                        Prištine mogle da budu varnica koja bi ceo 
+                                        region gurnula u provaliju i apelovao na 
+                                        međunarodnu zajednicu i Albance da to razumeju.
+                                    </p>
+                                    <p>
+                                        Ðurić je rekao i da naoružavanje Prištine 
+                                        nije nešto na šta može da gleda sa blagonaklonošću i simpatijama.
+                                    </p>
+                                    <p>
+                                        - <b>Sada nam treba deeskalacija, ne nove vojske na Kosovu i još oružja na buretu baruta, 
+                                            a još manje nove varnice koje bi mogle da gurnu ceo region u provaliju</b> - rekao je Ðurić.
+                                    </p>
+                                    <p>
+                                        On je naveo da bi nove mere Prištine mogle 
+                                        da budu ta varnica i da je zato sada vreme 
+                                        za apel na razum u međunarodnoj zajednici i 
+                                        među Albancima na KiM. Ðurić je rekao da su 
+                                        mere Prištine neprijateljske, da su uperene 
+                                        protiv mira i stabilnosti, a da Srbija žele 
+                                        mir i saradnju između Srba i Albanaca.
+                                    </p>
+                                    <p>
+                                        - <b>Sve što smo radili u prethodnom periodu 
+                                            imalo je za cilj da normalizuje stanje na KiM, 
+                                            ali neko želi nenormalno stanje</b> - rekao je Ðurić.
+                                    </p>
+                                    <figure>
+                                        <img src="img/SINGLE-PAGE/Rectangle 29.png" class="img-holder size-16by9" alt="Second picture"/>
+                                    </figure>
+                                    <p>
+                                        Direktor Kancelarije za Kosovo i Metohiju 
+                                        Marko Ðurić izjavio je danas da bi nove mere 
+                                        Prištine mogle da budu varnica koja bi ceo 
+                                        region gurnula u provaliju i apelovao na 
+                                        međunarodnu zajednicu i Albance da to razumeju.
+                                    </p>
+                                    <p>
+                                        Ðurić je rekao i da naoružavanje Prištine 
+                                        nije nešto na šta može da gleda sa blagonaklonošću i simpatijama.
+                                    </p>
+                                    <p>
+                                        - Sada nam treba deeskalacija, ne nove vojske na Kosovu i još oružja na buretu baruta, 
+                                        a još manje nove varnice koje bi mogle da gurnu ceo region u provaliju - rekao je Ðurić.
+                                    </p>
+                                    <p>
+                                        On je naveo da bi nove mere Prištine mogle 
+                                        da budu ta varnica i da je zato sada vreme 
+                                        za apel na razum u međunarodnoj zajednici i 
+                                        među Albancima na KiM. Ðurić je rekao da su 
+                                        mere Prištine neprijateljske, da su uperene 
+                                        protiv mira i stabilnosti, a da Srbija žele 
+                                        mir i saradnju između Srba i Albanaca.
+                                    </p>
+                                    <p>
+                                        - Sve što smo radili u prethodnom periodu 
+                                        imalo je za cilj da normalizuje stanje na KiM, 
+                                        ali neko želi nenormalno stanje - rekao je Ðurić.
+                                    </p>
+                                </article><!--single-news-content end-->
+                            </div>
+                            <!--banner-section start-->
+                            <section class="banner-section single-news-banner">
+                                <div class="container text-center">
+                                    <a href="#">
+                                        <img src="img/SINGLE-PAGE/Rectangle 15.png" alt="Banner Single News"/>
+                                    </a>
+                                </div>
+                            </section><!--banner-section end-->
+                            <!--input form start-->
+                            <section class="input-form">
+                                <form class="comment-form" method="post" action="">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <input type="text" name="comment" value="" placeholder="Ostavi komentar" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="form-group">
+                                                <input type="text" name="name" value="" placeholder="Ime" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-group"> 
+                                                <button type="submit" name="send" value="comments" class="btn btn-success">Pošalji</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </section><!--input form end-->
+                        </div><!--Left side end-->
+                        <!--Aside start-->
+                        <aside class="col-lg-6 d-none d-lg-block">
+
+                        </aside><!--Aside end-->
+                    </div>
+                </div>
+            </section><!--single-news end-->
+        </main><!--main end-->
+        <!--footer start-->
+        <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <ul class="m-auto list-unstyled text-center">
+                        <li class="nav-item">
+                            <!-- Add active class on link -->
+                            <a class="nav-link" href="#"><span>Naslovna</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Vesti</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Sport</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Zanimljivosti</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Zabava</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Hronika</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Razonoda</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Kultura</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Lifestyle</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top-social text-center">
+                    <ul class="m-auto list-unstyled">
+                        <li>
+                            <a class="fa fa-facebook-official" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="fa fa-twitter" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="fa fa-google-plus" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-body text-center">
+                    <ul class="m-auto list-unstyled">
+                        <li>
+                            <a class="nav-link" href="#">Marketing</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Impressum</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Pravila i uslovi koriscenja</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom text-center">
+                    <h5 class="mb-0">
+                        Komentar Online © 2018. Sva prava zadržana. 
+                    </h5>
+                </div>
+            </div>
+        </footer><!--footer end-->
+
+        <!--SCRIPTS goes here-->
+        <!--First jquery, then popper and finaly bootstrap-->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/popper.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!--Custom page js-->
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+
+        <!--All page js-->
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>
