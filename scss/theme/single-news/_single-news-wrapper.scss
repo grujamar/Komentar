@@ -5,12 +5,12 @@ $single-news-header-p-color:#7C7C7C;
 $single-news-content-p-color: $single-news-header-h2-color;
 
 .header-bottom{
-    border-bottom: 3px solid $header-border-color-gray;
+    border-bottom: 1px solid $header-border-color-gray;
 }
 
 .single-news {
-    margin-top: 28px;
-    margin-left: 35px; 
+    margin-top: 10px;
+    margin-left: 10px; 
 
     .single-news-wrapper{
 
@@ -34,7 +34,7 @@ $single-news-content-p-color: $single-news-header-h2-color;
             }
 
             .comment-number {
-                top: -0.2%;
+                top: -0.1%;
                 right: 65%;
             }
 
@@ -74,6 +74,10 @@ $single-news-content-p-color: $single-news-header-h2-color;
 @media(min-width:450px){
 
     .single-news{
+
+        margin-top: 15px;
+        margin-left: 15px;
+
         .single-news-wrapper{
             .single-news-header{
                 .comment-number{
@@ -87,6 +91,10 @@ $single-news-content-p-color: $single-news-header-h2-color;
 @media(min-width:576px){
 
     .single-news{
+        
+        margin-top: 20px;
+        margin-left: 20px;
+        
         .single-news-wrapper{
             .single-news-header{
                 .comment-number{
@@ -100,6 +108,10 @@ $single-news-content-p-color: $single-news-header-h2-color;
 @media(min-width:768px){
 
     .single-news{
+        
+        margin-top: 28px;
+        margin-left: 35px;
+        
         .single-news-wrapper{
             .single-news-header{
                 .comment-number{

@@ -1,0 +1,49 @@
+$read-more-h2-color: #3E3E3E;
+$read-more-border-color:#D8D8D8;
+$read-more-p-color: #313131;
+
+.comment-read-more{
+    h2{
+        color: $read-more-h2-color;
+        font-size: 1.07rem;
+        border-bottom: 1px solid $read-more-border-color;
+        margin-bottom: 27px;
+    }
+
+    .read-more-items{
+
+        margin-bottom: 0px;
+        
+        .read-more-items:last-of-type{
+            margin-bottom: 27px;
+        }
+        
+        .read-more-item{
+            margin-bottom: 27px;
+            a{
+                text-decoration: none;
+                p{
+                    color: $read-more-p-color;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(min-width:768px){
+    .comment-read-more{
+        .read-more-items{
+            margin-bottom: 76px;
+
+            .read-more-item{
+                margin-bottom: 27px;
+
+            }
+        }
+    }
+}
+

@@ -1,6 +1,6 @@
 
 html{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 img{
@@ -45,6 +45,11 @@ img{
     &.comments-picture{
         &:after{
             padding-top: 59.5%;
+        }
+    }
+    &.size-read-more-picture{
+        &:after{
+            padding-top: 62.13%;
         }
     }
 
@@ -150,4 +155,10 @@ $newest-coments-apostroph-color: #0BAE92;
     position: absolute;
     top: 10%;
     left: 3%;
+}
+
+@media(min-width:768px){
+    html{
+        font-size: 14px;
+    }
 }
