@@ -2,6 +2,7 @@ $discussions-link-color:#000000;
 $discussions-div-number-color: #8AB957;
 $discussions-div-h5-color: #8D8B8B;
 $discussions-div-p-color: #313131;
+$discussions-div-border-color: #EAEAEA;
 
 .discussions{
 
@@ -11,13 +12,14 @@ $discussions-div-p-color: #313131;
 
         border-top: 3px solid $grid-slider-border-color;	
         background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
-        border-bottom:1px solid #EAEAEA;
+        border-bottom:1px solid $discussions-div-border-color;
 
         h3{
             color: $grid-slider-h3-color;
             font-size: 1.1rem;	
             text-align: center;
             padding: 10px 41px;
+            border-bottom:1px solid $discussions-div-border-color;
         }
 
         .discussions-div{

@@ -110,6 +110,27 @@ h6 {
   top: 10%;
   left: 3%; }
 
+.news-item .news-item-detail a {
+  text-decoration: none; }
+  .news-item .news-item-detail a:hover {
+    color: #fff; }
+.news-item .news-item-detail h5 {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  max-height: 2.8rem;
+  overflow: hidden; }
+  .news-item .news-item-detail h5 .news-item-link {
+    text-decoration: none;
+    color: #000000; }
+.news-item .news-item-detail p {
+  font-weight: 300;
+  color: #6c757d; }
+  .news-item .news-item-detail p .date, .news-item .news-item-detail p .time {
+    font-size: 0.85rem; }
+  .news-item .news-item-detail p .news-detail-link {
+    text-decoration: none;
+    font-size: 0.9rem; }
+
 @media (min-width: 768px) {
   html {
     font-size: 14px; } }
@@ -674,7 +695,8 @@ footer {
       color: #25282A;
       font-size: 1.1rem;
       text-align: center;
-      padding: 10px 41px; }
+      padding: 10px 41px;
+      border-bottom: 1px solid #EAEAEA; }
     .discussions .discussions-tittle .discussions-div {
       padding: 0 12px; }
       .discussions .discussions-tittle .discussions-div .discussions-number {
@@ -1141,5 +1163,43 @@ footer {
     margin-bottom: 76px; }
     .comment-read-more .read-more-items .read-more-item {
       margin-bottom: 27px; } }
+.right-side {
+  background: #F2F2F2;
+  padding: 20px; }
+  .right-side .news-item .news-item-detail .comment-number {
+    top: 25.5%;
+    right: 18px; }
+  .right-side .last-comments {
+    border-top: 3px solid rgba(138, 185, 87, 0.8);
+    background: linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%);
+    border-bottom: 1px solid #EAEAEA; }
+    .right-side .last-comments h3 {
+      color: #25282A;
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 10px 41px;
+      border-bottom: 1px solid #EAEAEA; }
+    .right-side .last-comments .discussions-div {
+      padding: 12px;
+      padding-bottom: 0; }
+      .right-side .last-comments .discussions-div .line:after {
+        width: 100%;
+        height: 1px; }
+      .right-side .last-comments .discussions-div .discussions-number {
+        color: #8AB957;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.57rem;
+        font-weight: 700; }
+      .right-side .last-comments .discussions-div h5 {
+        color: #8D8B8B;
+        font-size: 1rem; }
+      .right-side .last-comments .discussions-div p {
+        color: #313131;
+        font-size: 1rem;
+        font-style: italic; }
+        .right-side .last-comments .discussions-div p .date, .right-side .last-comments .discussions-div p .time {
+          font-size: 0.85rem;
+          color: #6c757d;
+          font-style: normal; }
 
 /*# sourceMappingURL=theme.css.map */

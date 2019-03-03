@@ -157,6 +157,48 @@ $newest-coments-apostroph-color: #0BAE92;
     left: 3%;
 }
 
+$news-item-link-color:#000000;
+//NEWS-ITEM
+.news-item{
+    .news-item-detail{      
+        a{
+            text-decoration: none;
+
+            &:hover{
+                color:$white;
+            }
+        }
+
+        h5{	
+            font-size: 1.1rem;
+            line-height: 1.4rem;
+            max-height: 2.8rem;
+            overflow: hidden;
+
+            .news-item-link{
+                text-decoration: none;
+                color: $news-item-link-color;
+            }
+        }
+
+        p{
+            font-weight: $font-weight-light;
+            color:$gray-600;
+
+            .date, .time{
+                font-size: 0.85rem;
+            }
+
+            .news-detail-link{
+                text-decoration: none;
+                font-size: 0.9rem;
+            }
+        }
+
+    }
+}
+
+
 @media(min-width:768px){
     html{
         font-size: 14px;
