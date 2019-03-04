@@ -1,6 +1,7 @@
 $right-side-bg:#F2F2F2;
 $right-side-border-color: #EAEAEA;
 
+
 .right-side{
 
     background: $right-side-bg;
@@ -9,7 +10,7 @@ $right-side-border-color: #EAEAEA;
     .news-item{
         .news-item-detail{
             //COMMENT NUMBER
-            .comment-number{
+            .comment-number-single-page{
                 top:25.5%;
                 right: 18px;
             }
@@ -79,8 +80,9 @@ $right-side-border-color: #EAEAEA;
 
         .news-item{
             .news-item-detail{
-                .comment-number{
+                .comment-number-single-page{
                     top:25.2%;
+                    right: 18px;
                 }
                 .comment-number-position-44{
                     top:42.5%;
@@ -99,14 +101,15 @@ $right-side-border-color: #EAEAEA;
 
         .news-item{
             .news-item-detail{
-                .comment-number{
+                .comment-number-single-page{
                     top:25.5%;
+                    right: 18px;
                 }
                 .comment-number-position-44{
                     top:44.5%;
                 }
                 .comment-number-position-54{
-                    top:54.5%;
+                    top:54.5% !important;
                 }
             }
         }
