@@ -13,6 +13,12 @@ $right-side-border-color: #EAEAEA;
                 top:25.5%;
                 right: 18px;
             }
+            .comment-number-position-44{
+                top:44.5%;
+            }
+            .comment-number-position-54{
+                top:54.5%;
+            }
         }
     }
 
@@ -67,3 +73,43 @@ $right-side-border-color: #EAEAEA;
 }
 
 
+@media(min-width:992px){
+
+    .right-side{
+
+        .news-item{
+            .news-item-detail{
+                .comment-number{
+                    top:25.2%;
+                }
+                .comment-number-position-44{
+                    top:42.5%;
+                }
+                .comment-number-position-54{
+                    top:51.5%;
+                }
+            }
+        }
+    }
+
+}
+
+@media(min-width:1200px){
+    .right-side{
+
+        .news-item{
+            .news-item-detail{
+                .comment-number{
+                    top:25.5%;
+                }
+                .comment-number-position-44{
+                    top:44.5%;
+                }
+                .comment-number-position-54{
+                    top:54.5%;
+                }
+            }
+        }
+    }
+
+}
