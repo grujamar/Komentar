@@ -52,6 +52,11 @@ img{
             padding-top: 62.13%;
         }
     }
+    &.news-list-picture{
+        &:after{
+            padding-top: 70.7%;
+        }
+    }
 
     img{
         display: block;
@@ -87,7 +92,9 @@ h6{
 $comment-triangle-color:#767778;
 
 //COMMENT NUMBER
-.comment-number{
+.comment-number,
+.comment-number-single-page,
+.comment-number-news-list{
     position: absolute;
     top:80%;
     right: -9px;
@@ -112,7 +119,7 @@ $comment-triangle-color:#767778;
         border-left-color: $comment-triangle-color;
     }
 }
-
+/*
 //COMMENT NUMBER Single page
 .comment-number-single-page{
     position: absolute;
@@ -139,6 +146,7 @@ $comment-triangle-color:#767778;
         border-left-color: $comment-triangle-color;
     }
 }
+*/
 
 $line-color: #EAEAEA;
 
