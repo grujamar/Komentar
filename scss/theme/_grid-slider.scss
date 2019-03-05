@@ -12,13 +12,14 @@ $comments-linear-background-white: rgba(255,255,255, 1);
 $comments-linear-background-gray: rgba(243,243,243, 1);
 $grid-slider-bottom-border-color: #EAEAEA;
 
+
 .grid-slider{
     padding-bottom: 20px;
     //TITTLE
     .grid-slider-tittle{
 
         .grid-slider-tittle-bot{
-            border-top: 3px solid $grid-slider-border-color;	
+            //border-top: 3px solid $grid-slider-border-color;
             background: linear-gradient(to right, $comments-linear-background-white 70%, $comments-linear-background-gray 100%);
             border-bottom: 1px solid $grid-slider-bottom-border-color;
 
@@ -29,6 +30,7 @@ $grid-slider-bottom-border-color: #EAEAEA;
                 padding: 10px 57px;
             }
         }
+
     }
 
     //ITEM

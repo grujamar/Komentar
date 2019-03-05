@@ -91,7 +91,13 @@ $news-list-p-color:#7C7C7C;
                     top:55.5%;
                 }
                 .news-list-comment-number-position-64{
-                    top:66.5%;
+                    top:67%;
+                }
+                .news-list-comment-number-position-74{
+                    top:77%;
+                }
+                .news-list-comment-number-position-84{
+                    top:88%;
                 }
             }
         }
@@ -104,8 +110,15 @@ $news-list-p-color:#7C7C7C;
     .news-list{
         .news-item{
             .news-item-detail{
+                //COMMENT NUMBER
+                .comment-number-position-50{
+                    top:49%;
+                }
+                .comment-number-position-64{
+                    top:68%;
+                }
                 .news-list-comment-number-position-44{
-                    top:45%;
+                    top:46%;
                 }
                 .news-list-comment-number-position-54{
                     top:56%;
@@ -118,6 +131,53 @@ $news-list-p-color:#7C7C7C;
                 }
                 .news-list-comment-number-position-84{
                     top:87%;
+                }
+            }
+        }
+
+    }
+}
+
+@media(min-width:1200px){
+    .news-list{
+        .news-item{
+            .news-item-detail{
+                //COMMENT NUMBER
+                .comment-number-news-list{
+                    top: 14%;
+                }
+                .comment-number-position-50{
+                    top:54%;
+                }
+                .comment-number-position-64{
+                    top:74.5%;
+                }
+                .news-list-comment-number-position-4{
+                    top:4%;
+                }
+                .news-list-comment-number-position-14{
+                    top:14%;
+                }
+                .news-list-comment-number-position-24{
+                    top:24%;
+                }
+                .news-list-comment-number-position-34{
+                    top:34%;
+                }
+                .news-list-comment-number-position-44{
+                    top:44%;
+                }
+                .news-list-comment-number-position-54{
+                    top:54%;
+                }
+                .news-list-comment-number-position-64{
+                    top:64%;
+                }
+                .news-list-comment-number-position-74{
+                    top:74%;
+                }
+                .news-list-comment-number-position-84{
+                    top:84%;
                 }
             }
         }

@@ -12,7 +12,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
 .sport-comments{
 
     .coments-tittle{
-        border-top: 3px solid $comments-border-color;	
+        //border-top: 3px solid $comments-border-color;	
         background: linear-gradient(to right, $comments-linear-background-white 70%, $comments-linear-background-gray 100%);
 
         h2{
@@ -21,7 +21,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
             font-size: 1.1rem;	
         }
     }
-
+    /*
     .border-top-green{
         border-top: 3px solid $comments-border-color-green; 
     }
@@ -29,7 +29,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     .border-top-light-blue{
         border-top: 3px solid $comments-border-color-blue;
     }
-
+    */
     .comments-body{
         padding-top: 30px;
         //padding-bottom: 26px;
