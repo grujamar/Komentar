@@ -10,12 +10,12 @@ $header-search-color: $secondary;
 header{
 
     background: $header-bg;
-    
+
     .header-top{
         border-bottom: 3px solid $header-border-color-gray;
         position: relative;
     }
-    
+
     .header-top-social{
         li{
             display: inline-block;
@@ -31,13 +31,14 @@ header{
     }
 
     .header-bottom{
-        
+
         margin-top: -3px;
-        
+
         .search-wrapper{
+
             .search-icon{
                 text-align: center;
-                font-size: 18px;
+                font-size: 2rem;
                 color:$header-search-color;
                 margin-right: 10px;
                 cursor: pointer;
@@ -51,6 +52,17 @@ header{
             width: 100%;
             display: none;
             z-index: 10;
+
+            .input-group{
+                padding: 10px;
+                
+                .form-control{
+                    border: 2px solid $header-border-color;
+                     
+                }
+
+            }
+
         }
 
         .navbar-brand{
@@ -111,7 +123,7 @@ header{
                     display: block;
                     border-top: 2px solid transparent;
                     color: $gray-900;
-                    padding: 0.5rem;
+                    padding: 8px 15px 14px;
                 }
             }
         }
@@ -120,13 +132,41 @@ header{
 }
 
 @media(min-width:768px){
+header{
+    .header-bottom{
+        .search-wrapper{
+            .search-icon{
+                font-size: 1.3rem;
+            }
+        }
 
-    header{
-
+        .navbar-nav{
+            span{
+                padding: 2px 8px 7px; 
+            }
+        }
     }
+}
 }
 
 
 
 
 
+@media(min-width:992px){
+    header{
+    .header-bottom{
+        .search-wrapper{
+            .search-icon{
+                font-size: 1.3rem;
+            }
+        }
+
+        .navbar-nav{
+            span{
+                padding: 8px 15px 14px;
+            }
+        }
+    } 
+    }
+}
