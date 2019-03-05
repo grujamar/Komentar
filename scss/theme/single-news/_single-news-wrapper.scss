@@ -16,6 +16,18 @@ $single-news-content-p-color: $single-news-header-h2-color;
 
         //SINGLE NEWS HEADER
         .single-news-header{
+            .caption-picture{
+                position: absolute;
+                bottom:7px;
+                right: 11px;
+                .caption-picture{
+                    font-size: 0.85rem;
+                }
+                figcaption{
+                    font-style: italic;
+                }
+            }
+            
             .category{
                 color: $single-news-category-color;
                 font-family: $font-roboto;
@@ -52,7 +64,7 @@ $single-news-content-p-color: $single-news-header-h2-color;
                 font-size: 1rem; 
             }
             figure {
-                margin-bottom: 24px; 
+                margin-bottom: 17px; 
             }
         }
 

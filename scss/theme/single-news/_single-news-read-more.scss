@@ -10,13 +10,6 @@ $read-more-p-color: #313131;
         margin-bottom: 27px;
     }
 
-    .read-more-items{
-
-        margin-bottom: 0px;
-        
-        .read-more-items:last-of-type{
-            margin-bottom: 27px;
-        }
         
         .read-more-item{
             margin-bottom: 27px;
@@ -28,22 +21,7 @@ $read-more-p-color: #313131;
                 }
             }
         }
-    }
-
-
 
 }
 
-@media(min-width:768px){
-    .comment-read-more{
-        .read-more-items{
-            margin-bottom: 76px;
-
-            .read-more-item{
-                margin-bottom: 27px;
-
-            }
-        }
-    }
-}
 
