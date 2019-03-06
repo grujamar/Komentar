@@ -81,6 +81,11 @@ $(document).ready(function () {
                 0: {
                     items: 1
                 },
+                450:{
+                    items: 2,
+                    margin: 30,
+                    slideBy: 2
+                },
                 576: {
                     items: 2,
                     margin: 30,

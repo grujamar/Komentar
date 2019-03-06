@@ -128,11 +128,11 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
 }
 
 .news-comments{
-    margin-bottom: 46px;
+    margin-bottom: 23px;
 }
 
 .sport-comments{
-    margin-bottom: 76px;
+    margin-bottom: 38px;
 }
 
 
@@ -160,6 +160,14 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
         }
 
     }
+    
+    .news-comments{
+    margin-bottom: 46px;
+}
+
+.sport-comments{
+    margin-bottom: 76px;
+}
 }
 
 @media(min-width: 768px){

@@ -75,7 +75,7 @@ $grid-slider-bottom-border-color: #EAEAEA;
 
     //COMMENT NUMBER
     .comment-number{
-        top:82%;
+        top:85%;
         right: -6px;
     }
 
@@ -193,7 +193,7 @@ $grid-slider-bottom-border-color: #EAEAEA;
         }
 
         .nav-link {
-            padding: 0 1rem;
+            padding: 0 3rem;
         }
 
         .nav-pills .nav-link.active,
@@ -260,58 +260,6 @@ $grid-slider-bottom-border-color: #EAEAEA;
 @media(min-width: 450px){
     .grid-slider{
         .comment-number-position-20{
-            top:15%;
-            right: 0;
-        }
-
-        .comment-number-position-40{
-            top:35%;
-            right: 0;
-        }
-
-        .comment-number-position-60{
-            top:58%;
-            right: 0;
-        }
-
-        .comment-number-position-80{
-            top:80%;
-            right: 0;
-        }
-    }
-}
-
-
-@media(min-width: 576px){
-    .grid-slider{
-        .comment-number-position-20{
-            top:15%;
-            right: 0;
-        }
-
-        .comment-number-position-40{
-            top:40%;
-            right: 0;
-        }
-
-        .comment-number-position-60{
-            top:60%;
-            right: 0;
-        }
-
-        .comment-number-position-80{
-            top:80%;
-            right: 0;
-        }
-    }
-}
-
-
-@media(min-width:768px){
-
-    .grid-slider{
-
-        .comment-number-position-20{
             top:20%;
             right: 0;
         }
@@ -327,10 +275,122 @@ $grid-slider-bottom-border-color: #EAEAEA;
         }
 
         .comment-number-position-80{
-            top:80%;
+            top:83%;
+            right: 0;
+        }
+        
+        .grid-slider-comments{
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    color:$white;
+                }
+            }
+
+            .nav{
+                flex-wrap: nowrap !important;
+            }
+
+            .nav-link {
+                padding: 0 4rem;
+            }
+
+        }
+
+    }
+
+}
+
+
+@media(min-width: 576px){
+    .grid-slider{
+        .comment-number-position-20{
+            top:20%;
             right: 0;
         }
 
+        .comment-number-position-40{
+            top:43%;
+            right: 0;
+        }
+
+        .comment-number-position-60{
+            top:65%;
+            right: 0;
+        }
+
+        .comment-number-position-80{
+            top:85%;
+            right: 0;
+        }
+
+        .grid-slider-comments{
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    color:$white;
+                }
+            }
+
+            .nav{
+                flex-wrap: nowrap !important;
+            }
+
+            .nav-link {
+                padding: 0 5rem;
+            }
+
+        }
+    }
+
+}
+
+
+@media(min-width:768px){
+
+    .grid-slider{
+
+        .comment-number-position-20{
+            top:20%;
+            right: 0;
+        }
+
+        .comment-number-position-40{
+            top:42%;
+            right: 0;
+        }
+
+        .comment-number-position-60{
+            top:65%;
+            right: 0;
+        }
+
+        .comment-number-position-80{
+            top:85%;
+            right: 0;
+        }
+        
+        .grid-slider-comments{
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    color:$white;
+                }
+            }
+
+            .nav{
+                flex-wrap: nowrap !important;
+            }
+
+            .nav-link {
+                padding: 0 3rem;
+            }
+
+        }
+        
         //SLIDER
         .grid-slider-mainslider{
 
@@ -354,8 +414,59 @@ $grid-slider-bottom-border-color: #EAEAEA;
             }
 
         }
+        
+
+
 
     }
-} 
+}
+
+
+@media(min-width:992px){
+    
+    .grid-slider{
+        
+        .comment-number-position-20{
+            top:20%;
+            right: 0;
+        }
+
+        .comment-number-position-40{
+            top:40%;
+            right: 0;
+        }
+
+        .comment-number-position-60{
+            top:60%;
+            right: 0;
+        }
+
+        .comment-number-position-80{
+            top:80%;
+            right: 0;
+        }
+        
+        .grid-slider-comments{
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    color:$white;
+                }
+            }
+
+            .nav{
+                flex-wrap: nowrap !important;
+            }
+
+            .nav-link {
+                padding: 0 1.5rem;
+            }
+
+        }
+    }
+    
+}
+
 
 

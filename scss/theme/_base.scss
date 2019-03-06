@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 html{
     font-size: 13px;
@@ -101,8 +102,11 @@ $comment-triangle-color:#767778;
     color:$white;
     font-family: $font-roboto;
     font-weight: $font-weight-medium;
-    padding: 6px;
+    height: 26px;	
+    width: 32px;
     font-size: 0.85rem;
+    padding: 5px;
+    text-align: center;
     display: inline-block;
     text-decoration: none;
 
@@ -119,34 +123,6 @@ $comment-triangle-color:#767778;
         border-left-color: $comment-triangle-color;
     }
 }
-/*
-//COMMENT NUMBER Single page
-.comment-number-single-page{
-    position: absolute;
-    top:80%;
-    right: -9px;
-    color:$white;
-    font-family: $font-roboto;
-    font-weight: $font-weight-medium;
-    padding: 6px;
-    font-size: 0.85rem;
-    display: inline-block;
-    text-decoration: none;
-
-    &:after{
-        content: '';
-        display: block;
-        width: 5px; 
-        height: 5px;
-        position: absolute;
-        top:100%;
-        left:70%;
-        border: 5px solid transparent;
-        border-top-color: $comment-triangle-color;
-        border-left-color: $comment-triangle-color;
-    }
-}
-*/
 
 $line-color: #EAEAEA;
 
@@ -166,26 +142,26 @@ $line-color: #EAEAEA;
 }
 
 
-
 $newest-coments-apostroph-color: #0BAE92;
 
 //apostroph
 .apostrophAfter:after{
-    content: '"';
+    content: '”';
     display: block;	
     color: $newest-coments-apostroph-color;	
-    font-family: 'Arial', sans-serif;	
+    font-family: 'Arial';	
     font-size: 2.8rem;
     position: absolute;
     top: 40%;
     left: 80%;
+
 }
 
 .apostrophBefore:before{
-    content: '"';
+    content: '”';
     display: block;	
     color: $newest-coments-apostroph-color;	
-    font-family: 'Arial', sans-serif;	
+    font-family: 'Arial';	
     font-size: 2.8rem;
     position: absolute;
     top: 10%;

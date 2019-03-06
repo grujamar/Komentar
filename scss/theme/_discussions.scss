@@ -7,7 +7,7 @@ $discussions-div-border-color: #EAEAEA;
 .discussions,
 .news-list{
 
-    margin-bottom: 45px;
+    margin-bottom: 23px;
     
     .discussions-tittle{
 
@@ -75,7 +75,7 @@ $discussions-div-border-color: #EAEAEA;
                 color:$gray-600;
 
                 .date, .time{
-                    font-size: 0.85rem;
+                    font-size: 0.9rem;
                 }
 
                 .discussions-link{
@@ -91,12 +91,12 @@ $discussions-div-border-color: #EAEAEA;
 
         //COMMENT NUMBER
         .comment-number{
-            top:82%;
+            top:73%;
             right: 0;
         }
 
         .comment-number-position-75{
-            top:70%;
+            top:73%;
             right: 0 !important;
         }
 
@@ -127,7 +127,7 @@ $discussions-div-border-color: #EAEAEA;
                 color:$gray-600;
 
                 .date, .time{
-                    font-size: 0.85rem;
+                    font-size: 0.9rem;
                 }
 
                 .news-detail-link{
@@ -146,7 +146,7 @@ $discussions-div-border-color: #EAEAEA;
 
         .news-item{
             .comment-number-position-75{
-                top:60%;
+                top:65%;
                 right: 6px;
             }
         }
@@ -156,10 +156,11 @@ $discussions-div-border-color: #EAEAEA;
 @media(min-width:576px){
 
     .discussions{
-
+        
+        margin-bottom: 45px;
         .news-item{
             .comment-number-position-75{
-                top:80%;
+                top:70%;
                 right: 6px;
             }
         }
