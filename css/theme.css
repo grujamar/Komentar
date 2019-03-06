@@ -1268,13 +1268,13 @@ footer {
     .comment-wrapper .comment-inner .comment-item .comment-p {
       color: #313131;
       font-size: 1.07rem; }
-    .comment-wrapper .comment-inner .comment-item .fa {
+    .comment-wrapper .comment-inner .comment-item .comment-item-thumbs {
       font-size: 1.1rem;
       color: #8AB957;
       text-decoration: none;
-      padding: 10px;
+      padding: 7px 10px;
       background: rgba(138, 185, 87, 0.15); }
-      .comment-wrapper .comment-inner .comment-item .fa span {
+      .comment-wrapper .comment-inner .comment-item .comment-item-thumbs span {
         color: #3E3E3E;
         font-family: "Roboto", sans-serif;
         font-size: 1rem;
