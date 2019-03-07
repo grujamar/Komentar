@@ -21,22 +21,17 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
             font-size: 1.1rem;	
         }
     }
-    /*
-    .border-top-green{
-        border-top: 3px solid $comments-border-color-green; 
-    }
 
-    .border-top-light-blue{
-        border-top: 3px solid $comments-border-color-blue;
-    }
-    */
     .comments-body{
         padding-top: 30px;
-        //padding-bottom: 26px;
 
         .news-item{
             position: relative;
-
+            
+            .news-item-top{
+                background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+            }
+            
             a{
                 text-decoration: none;
 
@@ -76,7 +71,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
 
         .news-detail{
             position: absolute;
-            bottom:33%;
+            bottom:0%;
             width: 100%;
             margin: 0 auto;
             padding-left:10px;
@@ -142,10 +137,6 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     .news-comments,
     .sport-comments{
         .comments-body{
-            .news-detail{
-                bottom:36%;
-            }
-
             .comment-number{
                 top:70%;
             }
@@ -176,10 +167,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     .news-comments,
     .sport-comments{
         .comments-body{
-            .news-detail{
-                bottom:37%;
-            }
-            
+
             .comment-number{
                 top:70%;
             }
@@ -202,10 +190,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     .news-comments,
     .sport-comments{
         .comments-body{
-            .news-detail{
-                bottom:33%;
-            }
-            
+
             .comment-number{
                 top:80%;
             }
@@ -228,9 +213,7 @@ $comments-linear-background-gray: rgba(243,243,243, 1);
     .news-comments,
     .sport-comments{
         .comments-body{
-            .news-detail{
-                bottom:30%;
-            }
+
             .news-icon{
 
                 .fa{
